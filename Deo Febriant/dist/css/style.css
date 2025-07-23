@@ -71,6 +71,15 @@
     color: brown;
 }
 
+@media (max-width: 760px) {
+    .hero-box img {
+        width: 350px;
+    padding: 10px 10px 0 10px;  
+    border-radius: 10px;
+    margin-inline: auto;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-box h1 {
         font-size: 45px;
